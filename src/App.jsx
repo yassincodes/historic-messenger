@@ -10,7 +10,7 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   const [showParagraph, setShowParagraph] = useState(true);
   const [showTopContent, setShowTopContent] = useState(false);
-
+//
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowParagraph(false);
